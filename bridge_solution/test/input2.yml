@@ -1,0 +1,20 @@
+--- 
+#This YML file represents the following
+# bridge1 length: 50 and 1 hiker
+# bridge2 length: 100 and 1 additional hiker
+# bridge3 length: 150 and 1 additional hiker
+# bridge4 length: 100 and 1 additional hiker
+# bridge5 length: 150 and 3 additional hiker
+bridges: 
+  50: 
+    - 100
+  100:
+    - 50
+  150: 
+    - 25
+  100:
+    - 75
+  150:
+    - 50
+    - 75
+    - 15
